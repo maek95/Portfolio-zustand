@@ -1,11 +1,39 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 :root {
+  min-width: 459px; 
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,3 +59,4 @@ body {
     text-wrap: balance;
   }
 }
+ */
